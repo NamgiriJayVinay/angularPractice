@@ -1,0 +1,13 @@
+<p>Start editing to see some magic happen :) here</p>
+
+<app-student (childInfo)="msg = $event" [fromParent]="parentMsg"></app-student>
+<h1>
+  {{ msg }}
+</h1>
+<app-twowaydb [fromParent]="parentMsg"></app-twowaydb>
+<app-ngif></app-ngif>
+<app-ngswitch></app-ngswitch>
+<app-ngfor></app-ngfor>
+
+<app-studentlist></app-studentlist>
+<app-studentdetails></app-studentdetails>

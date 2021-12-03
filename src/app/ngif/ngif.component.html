@@ -1,0 +1,7 @@
+<h1 *ngIf="status; then trueblock; else elseblock">This is True block</h1>
+<ng-template #elseblock>
+  <h2>This is False block</h2>
+</ng-template>
+<ng-template #trueblock>
+  <h2>This is True block</h2>
+</ng-template>
