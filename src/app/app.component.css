@@ -10,3 +10,7 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   text-align: right;
 }
+.fw-bold {
+  text-align: center;
+  color: brown;
+}
